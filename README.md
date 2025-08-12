@@ -3,4 +3,6 @@
 - Run `npm i` in project root.
 - Create file named 'tokens', filled with Discord bot tokens.
 - Run `./gunga.sh`
+- ...
+- Profit
 
