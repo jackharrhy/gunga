@@ -27,8 +27,8 @@ client.on("messageCreate", async (message) => {
     hasGunga = true;
     if (message.member?.voice.channel) {
       console.log(`waiting ${delay} seconds before joining voice channel`);
-      await new Promise(resolve => setTimeout(resolve, delay * 1000));
-      
+      await new Promise((resolve) => setTimeout(resolve, delay * 1000));
+
       console.log("joining voice channel");
       const connection = joinVoiceChannel({
         channelId: message.member.voice.channel.id,
